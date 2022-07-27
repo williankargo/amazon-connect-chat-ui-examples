@@ -1,0 +1,19 @@
+html, body, .section-chat {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.section-chat {
+    height: inherit;
+    width: inherit;
+}
