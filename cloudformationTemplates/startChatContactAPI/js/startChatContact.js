@@ -32,6 +32,7 @@ function startChatContact(body) {
             "ContactFlowId": contactFlowId == "" ? process.env.CONTACT_FLOW_ID : contactFlowId,
             "Attributes": {
                 "customerName": body["ParticipantDetails"]["DisplayName"]
+                "customAttribute": body["customAttributesPassedFromChatInterface"]["MyCustomAttribute"]
             },
             "ParticipantDetails": {
                 "DisplayName": body["ParticipantDetails"]["DisplayName"]
